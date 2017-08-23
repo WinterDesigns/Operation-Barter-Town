@@ -1,0 +1,17 @@
+//////////--Game Mode--//////////        -----> http://community.bistudio.com/wiki/description.ext#Header_Class
+class header {
+	gametype = COOP;
+	minplayers = 0;
+	maxplayers =100;
+	playerCountMultipleOf = 1;
+};
+
+
+//////////--Author and Loadscreen information--//////////        -----> https://community.bistudio.com/wiki/Loading_Screens
+author = "SpearHead Gaming (Winter)";
+OnLoadName = "Operation | Barter Town";
+OnLoadMission = "A rebel uprising has broken out on the southwestern end of Altis, put an end to it. Beware of the rebel's attempting to recruit civilians, lay IED's, and ambush you.";
+loadScreen = "BTL.paa";
+
+
+};
